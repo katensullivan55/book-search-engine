@@ -6,7 +6,7 @@ import { useMutation } from '@apollo/react-hooks';
 import { ADD_USER } from '../utils/mutations';
 
 
-const SignupForm = () => {
+const formSignUp = () => {
   // set initial form state
   const [userFormData, setUserFormData] = useState({ username: '', email: '', password: '' });
   // set state for form validation
@@ -107,4 +107,4 @@ const SignupForm = () => {
   );
 };
 
-export default SignupForm;
+export default formSignUp;
